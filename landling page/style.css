@@ -1,0 +1,109 @@
+body{
+    font-family: "poppins";
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+.header_button{
+    font-family: "poppins";
+    font-size: 10px;
+
+}
+.login
+{
+    font-family: "poppins";
+    font-size: 15px;
+padding: 10px 30px 10px 30px;
+border-radius: 20px;
+background-color: whitesmoke;
+border: 1px solid white;
+}
+.Register{
+    font-family: "poppins";
+    font-size: 15px;
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+    background-color: #0ab6bd;
+    color:white;
+    border: 1px solid white;
+}
+.Register:hover{
+    font-size: 20px;
+}
+.navbar{
+    background-color: #c9143f;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    color: white;
+    font-size:30px
+}
+.container{
+    padding-top: 10px;
+    /* position: relative; */
+  text-align: center;
+}
+   
+#container2
+{    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40vh;
+
+}
+.container2-child{
+     /* border: 1px solid black; */
+    height: 50vh;
+    width: 20%;
+}
+.first-child{
+    height: 25vh;
+    /* border: 1px solid black; */
+    background-color: #f8f4f3;
+    border-radius: 50%;
+}
+#section2{
+    margin-top: 5vh;
+    background-color: #325f80;
+    padding-top: 7vh;
+    
+}
+.section2-div1{
+    text-align: center;
+}
+
+.section2-div2{
+    display: flex;
+    justify-content: space-around;
+}
+.section2-div2-pics{
+    height:50vh ;
+    width: 15%;
+}
+.section2-div2-pics1{
+    height: 30vh;
+    background-image: url(https://images-cdn.ubuy.co.in/63dc8a9f8bc8cf40af37ba03-cuisinart-elemental-13-cup-food.jpg);
+    background-size: cover;
+}
+.pic2{
+    background-image: url(https://m.media-amazon.com/images/I/81dQTyL2tzL._AC_UF894,1000_QL80_.jpg);
+     background-size: cover;
+}
+.pic3{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY1wf8gUl0neRgaTw1LAmsddzsoWvDGkd0YQ&s);
+    background-size: cover;
+}
+.pic4{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh6rcIri0oxyEeiPc8bno9oZIMtynUKL7Qlg&s);
+    background-size: cover;
+}
+#section3{
+    background-color: #f8e7e0;
+    color: #0ab6bd;
+    font-size: 50px;
+    font-family: 'Cedarville Cursive';
+    text-align: center;
+    height: 30vh;
+}
